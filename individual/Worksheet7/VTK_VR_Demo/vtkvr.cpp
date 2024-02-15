@@ -64,7 +64,6 @@ int main( int, char*[] ) {
   // The render window is the actual GUI window that appears on the computer screen
   vtkNew<vtkOpenVRRenderWindow> 			renderWindow;
   renderWindow->Initialize();
-  renderWindow->SetSize( 300, 300 );
   renderWindow->AddRenderer( renderer );
   renderWindow->SetWindowName( "Cylinder" );
 
