@@ -96,20 +96,20 @@ int ModelPart::row() const {
 }
 
 void ModelPart::setColour(const unsigned char R, const unsigned char G, const unsigned char B) {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* As the name suggests ... */
 }
 
 unsigned char ModelPart::getColourR() {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* As the name suggests ... */
     return 0;   // needs updating
 }
 
 unsigned char ModelPart::getColourG() {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* As the name suggests ... */
     return 0;   // needs updating
@@ -117,7 +117,7 @@ unsigned char ModelPart::getColourG() {
 
 
 unsigned char ModelPart::getColourB() {
-    /* This is a placeholder function that will be used in the next worksheet */
+   /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* As the name suggests ... */
     return 0;   // needs updating
@@ -125,20 +125,20 @@ unsigned char ModelPart::getColourB() {
 
 
 void ModelPart::setVisible(bool isVisible) {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* As the name suggests ... */
 }
 
 bool ModelPart::visible() {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* As the name suggests ... */
     return false;
 }
 
 void ModelPart::loadSTL( QString fileName ) {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* 1. Use the vtkSTLReader class to load the STL file 
      *     https://vtk.org/doc/nightly/html/classvtkSTLReader.html
@@ -150,7 +150,7 @@ void ModelPart::loadSTL( QString fileName ) {
 }
 
 //vtkSmartPointer<vtkActor> ModelPart::getActor() {
-    /* This is a placeholder function that will be used in the next worksheet */
+    /* This is a placeholder function that you will need to modify if you want to use it */
     
     /* Needs to return a smart pointer to the vtkActor to allow
      * part to be rendered.
@@ -158,7 +158,7 @@ void ModelPart::loadSTL( QString fileName ) {
 //}
 
 //vtkActor* ModelPart::getNewActor() {
-    /* This is a placeholder function that will be used in the next worksheet.
+    /* This is a placeholder function that you will need to modify if you want to use it
      * 
      * The default mapper/actor combination can only be used to render the part in 
      * the GUI, it CANNOT also be used to render the part in VR. This means you need
