@@ -145,7 +145,7 @@ void VRRenderThread::run() {
 	vtkActorCollection* actorList = renderer->GetActors();
 	actorList->InitTraversal();
 	while ((a = (vtkActor*)actorList->GetNextActor())) {
-		double* ac = actor->GetOrigin();
+		double* ac = a->GetOrigin();
 		a->RotateX(-90);
 		a->AddPosition(-ac[0]+0, -ac[1]-100, -ac[2]-200);
 	}
