@@ -18,6 +18,7 @@
 
 /* Vtk headers */
 #include <vtkActor.h>
+#include <vtkPolyDataMapper.h>
 #include <vtkOpenVRRenderWindow.h>				
 #include <vtkOpenVRRenderWindowInteractor.h>	
 #include <vtkOpenVRRenderer.h>					
